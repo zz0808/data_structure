@@ -37,10 +37,6 @@ public:
 		return ptr_;
 	}
 
-	T* Get() {
-		return ptr_;
-	}
-
 	int UseCount() {
 		return *ref_count_;
 	}
